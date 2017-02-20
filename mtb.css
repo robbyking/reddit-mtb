@@ -1,311 +1,370 @@
-/*********************************/
-/* Page settings */
-/*********************************/
-html{position:relative;}
-
-#header-bottom-left {padding-top:10px; background-image:url(%%mtb-bg%%);background-position:-0px 0px}
-div.content {
-  margin-top: 20px !important;
+#header-bottom-left {
+    background-position: -0px 0px;
+    padding-top: 10px;
 }
 
-div.expando-button.collapsed.selftext {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-div.expando-button.collapsed.selftext:hover {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-div.expando-button.selftext.expanded {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-div.expando-button.selftext.expanded:hover {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-div.expando-button.video.collapsed {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
+.arrow.down:hover:after {
+    background-color: #444444;
+    bottom: 0;
+    color: #FEFEFE;
+    content: "Remember to vote based on quality, not opinion.";
+    display: block;
+    font-size: 16px;
+    left: 0;
+    padding: 7px 0;
+    position: fixed;
+    text-align: center;
+    text-shadow: 0 -1px 1px #555;
+    width: 100%;
+    z-index: 1000;
 }
 
-div.expando-button.video.expanded {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-div.expando-button.video.collapsed:hover {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-
-div.expando-button.video.expanded:hover {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
+.arrow.downmod:hover:before {
+    background-color: #9e0b0f;
+    border: 1px solid #333;
+    color: #fff;
+    content: " Should this be reported?";
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: 5px;
+    padding: 5px 20px 5px 20px;
+    position: absolute;
+    text-align: left;
+    vertical-align: top;
+    width: auto;
+    z-index: 1000;
 }
 
-a.toggleImage.expando-button.collapsedExpando.image.gallery.linkImg {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-
-a.toggleImage.expando-button.collapsedExpando.image.gallery.linkImg:hover {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-
-a.toggleImage.expando-button.collapsedExpando.image.linkImg {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-
-a.toggleImage.expando-button.collapsedExpando.image.linkImg:hover {
-  background-image:url(%%ext-link%%);
-  background-position: 0 0;
-  width:14px;
-  height:14px;
-}
-
-a {font-weight:400 !important}
-a[href="/flag"]:before{content:url(%%wc%%);padding-right : 3px;}
 .content .author:before, .commentarea .author:before {
-  width: 16px;
-  height: 11px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  vertical-align: text-bottom;
-  margin-right: 3px;
-  margin-left : 3px;
-}
-.title {color : #08c!important;}
-.title:hover{color : #ef4135 !important; }
-.title:visited{color : #888 !important;}
-div.md h3 a {color : #444! important;}
-
-.link .score,
-.link .score.likes,
-.link .score.dislikes {
-  color: #999;
-}
-a.login-required {
-  font-weight: normal;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 11px;
+    margin-left: 3px;
+    margin-right: 3px;
+    vertical-align: text-bottom;
+    width: 16px;
 }
 
-a.title {
-  font-family: 'Lucida Grande', sans-serif;
-  font-size: 11pt;
+.expando-button.image {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
 }
 
-a.togglebutton {
-  font-weight: normal;
+.expando-button.selftext.collapsed {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
 }
 
-form.state-button.save-button span a {
-  font-weight: normal;
+.expando-button.video-muted {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
 }
 
-form.state-button.hide-button span a {
-  font-weight: normal;
+.link .score, .link .score.likes, .link .score.dislikes {
+    color: #999;
 }
 
-form.state-button.approve-button span a {
-  font-weight: normal;
+.title {
+    color: #0088cc !important;
 }
 
-a.comments {
-  font-weight: normal;
+.title:hover {
+    color: #ef4135 !important;
+}
+
+.title:visited {
+    color: #888 ;
+}
+
+.toggleImage, .expando-button, .collapsed, .collapsedExpando, .video-muted, .video, .linkImg {
+    background-image: url('%%ext-link%%') !important;
+    background-position: 0 0 !important;
+    height: 14px !important;
+    width: 14px !important;
+}
+
+a {
+    font-weight: 400 ;
 }
 
 a.author {
-  color: #ef4135;
+    color: #ef4135;
 }
 
-ul.flat-list.buttons {
-  padding: 0;
-  margin: 0;
+a.comments {
+    font-weight: normal;
 }
+
+a.login-required {
+    font-weight: normal;
+}
+
+a.title {
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+a.toggleImage.expando-button.collapsedExpando.image.gallery.linkImg {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+a.toggleImage.expando-button.collapsedExpando.image.gallery.linkImg:hover {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+a.toggleImage.expando-button.collapsedExpando.image.linkImg {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+a.toggleImage.expando-button.collapsedExpando.image.linkImg:hover {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+a.togglebutton {
+    font-weight: normal;
+}
+
+a[href="/flag"]:before {
+    content: url(%%wc%%);
+    padding-right: 3px;
+}
+
+body, div, span, a {
+    font-family: sans-serif;
+}
+
+/*********************************/
+
+/* Page settings */
+
+/*********************************/
+
+/*********************************/
+
+/* Sidebar Button */
+
+/*********************************/
+
+div.content {
+    margin-top: 20px ;
+}
+
 div.entry {
-  margin-bottom: 15px !important;
+    margin-bottom: 1px ;
 }
 
-.arrow.up:hover:before {
-  position: absolute;
-  display: block;
-  z-index: 1000;
-  width: auto;
-  padding: 5px 20px 5px 20px;
-  border: 1px solid #333;
-  background-color: #cee3f8;
-  content: " Constructive";
-  text-align: left;
-  font-size: 10px;
-  font-weight: 400;
-  margin-left: 25px;
-  margin-top: 5px;
-  vertical-align : top;
-}
-.arrow.down:hover:before {
-  position: absolute;
-  display: block;
-  z-index: 1000;
-  width: auto;
-  padding: 5px 20px 5px 20px;
-  border: 1px solid #333;
-  background-color: #9e0b0f;
-  color:#fff; content: " Off topic";
-  text-align: left;
-  font-size: 10px;
-  font-weight: 400;
-  margin-left: 25px;
-  margin-top: 5px;
-  vertical-align : top;
-}
-.arrow.downmod:hover:before {
-  position: absolute;
-  display: block;
-  z-index: 1000;
-  width: auto;
-  padding: 5px 20px 5px 20px;
-  border: 1px solid #333;
-  background-color: #9e0b0f;
-  color:#fff; content: " Should this be reported?";
-  text-align: left;
-  font-size: 10px;
-  font-weight: 400;
-  margin-left: 25px;
-  margin-top: 5px;
-  vertical-align : top;
+div.expando-button.collapsed.selftext {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
 }
 
-div.titlebox span.word{display: none}
-div.titlebox span.number:after{content: " cyclists.";}
+div.expando-button.collapsed.selftext:hover {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.expando-button.selftext.expanded {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.expando-button.selftext.expanded:hover {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.expando-button.video-muted.collapsed {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.expando-button.video.collapsed {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.expando-button.video.collapsed:hover {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.expando-button.video.expanded {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.expando-button.video.expanded:hover {
+    background-image: url('%%ext-link%%') ;
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+}
+
+div.md h3 a {
+    color: #444;
+}
+
+div.morelink {
+    background: none ;
+    background-color: #ef4135 ;
+    border: solid 1px #ef4135;
+}
+
+div.morelink > a.login-required {
+    color: #fff;
+}
+
+div.nub {
+    background: none ;
+    background-color: #ef4135 ;
+    visibility: hidden;
+    width: 0;
+}
 
 div.side {
     padding-right: 5px;
 }
 
-/*********************************/
-/* Sidebar Button */
-/*********************************/
-
-div.morelink {
-  background: none !important;
-  background-color: #ef4135 !important;
-  border: solid 1px #ef4135;
+div.titlebox span.number:after {
+    content: " cyclists.";
 }
 
-div.nub {
-  background: none !important;
-  background-color: #ef4135 !important;
+div.titlebox span.word {
+    display: none;
 }
 
-div.morelink > a.login-required {
-  color: #fff;
+form.state-button.approve-button span a {
+    font-weight: normal;
 }
 
-span.subscribe-button {
-  background: none !important;
-  border: 0 ;
-  margin-top: 10px;
-  width:300px;
-  text-align:center;
+form.state-button.hide-button span a {
+    font-weight: normal;
 }
 
-span.subscribe-button > a.remove {
-  background: none !important;
-  background-color: #bbb !important;
-  border: 0 !important;
-  color: #fff;
-  font-size:15px !important;
-  margin: 2px 0;
-  border-radius:0px !important;
-  padding: 4px 104px !important;
-}
-span.subscribe-button > a.add {
-  background: none !important;
-  background-color: #4d90fe !important;
-  border: 0 !important;
-  color: #fff;
-  font-size:15px !important;
-  margin: 2px 0;
-  border-radius:0px !important;
-  padding: 4px 113px !important;
+form.state-button.save-button span a {
+    font-weight: normal;
 }
 
-span.RESshortcut {
-  background: none !important;
-  background-color: #ef4135 !important;
-  border: 0 ;
-  border-bottom: solid 3px #ef4135 ;
-  border-radius: 0 ;
-  margin-top: 10px;
-  padding: 4px 15px 4px 15px;
-  font-weight: 400 ;
-  text-align:center;
-  font-size:13px !important;
-  width:115px !important;
+html {
+    position: relative;
 }
 
+span.RESshortcut, res-fancy-toggle-button, RESshortcut, RESshortcutside, remove {
+    background: none ;
+    background-color: #ef4135 ;
+    border: 0 ;
+    border-bottom: solid 3px #ef4135 ;
+    border-radius: 0 ;
+    font-size: 13px ;
+    font-weight: 400 ;
+    height: 15px;
+    margin-top: 10px;
+    padding: 4px 15px 4px 15px;
+    text-align: center;
+    width: 115px ;
+}
 
 span.REStoggle {
-  background: none !important;
-  background-color: #ef4135 !important;
-  border: 0 ;
-  border-bottom: solid 3px #ef4135 ;
-  border-radius: 0 ;
-  margin-top: 10px;
-  margin-right:0px;
-  padding: 4px 15px 3px 15px;
-  font-weight: 400 ;
-  float:right;
-  text-align:center;
-  font-size:13px !important;
-  white-space:nowrap;
-  width:115px !important;
+    background: none ;
+    background-color: #ef4135 ;
+    border: 0 ;
+    border-bottom: solid 3px #ef4135 ;
+    border-radius: 0 ;
+    float: right;
+    font-size: 13px ;
+    font-weight: 400 ;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding: 4px 15px 3px 15px;
+    text-align: center;
+    white-space: nowrap;
+    width: 115px ;
 }
 
 span.remove {
-  background: none !important;
-  background-color: #bbb !important;
-  border: 0 ;
-  border-bottom: solid 3px #bbb ;
-  border-radius: 0 ;
-  margin-top: 10px;
-  padding: 4px 15px 4px 15px;
-  font-weight: 400 ;
-  text-align:center;
-  font-size:13px !important;
-  width:115px !important;
+    background: none ;
+    background-color: #bbb ;
+    border: 0 ;
+    border-bottom: solid 3px #bbb ;
+    border-radius: 0 ;
+    font-size: 13px ;
+    font-weight: 400 ;
+    margin-top: 10px;
+    padding: 4px 15px 4px 15px;
+    text-align: center;
+    width: 115px ;
 }
 
+span.subscribe-button {
+    background: none ;
+    border: 0 ;
+    margin-top: 10px;
+    text-align: center;
+    width: 300px;
+}
 
-/*********************************/
-/* Mods */
-/*********************************/
+span.subscribe-button > a.add {
+    background: none ;
+    background-color: #4d90fe ;
+    border: 0 ;
+    border-radius: 0px ;
+    color: #fff;
+    font-size: 15px ;
+    margin: 2px 0;
+    padding: 4px 113px ;
+}
 
-.author[href$="/badbod999"]:after { content:" (offline)"; }
-.author[href$="/badbod99"] { color :  #666666; }
+span.subscribe-button > a.remove {
+    background: none ;
+    background-color: #bbb ;
+    border: 0 ;
+    border-radius: 0px ;
+    color: #fff;
+    font-size: 15px ;
+    margin: 2px 0;
+    padding: 4px 104px ;
+}
+
+ul.flat-list.buttons {
+    margin: 0;
+    padding: 0;
+}
 
 
 /*********************************/
@@ -650,3 +709,4 @@ span.remove {
 .flair-quebec:before{ content:' '; background-position: 0 -220px; width: 17px; height: 11px; }
 .flair-reddit:before{ content:' '; background-position: 0 -233px; width: 11px; height: 11px; }
 .flair-wc:before{ content:' '; background-position: 0 -246px; width: 16px; height: 11px; }
+

@@ -1,0 +1,35 @@
+###### If you edit this page, you must [click this link, then click "send"](http://www.reddit.com/message/compose/?to=AutoModerator&subject=mtb&message=schedule) to have AutoModerator re-load the schedule from here
+
+######Monday
+first: "July 20, 2015 00:00 -07"
+repeat: 1 week
+sticky: 1
+title: "Weekend Ride Report for {{date %B %d, %Y}}"
+text: Where’d you ride this weekend, and how’d it go? Post your photos, race reports and trail stories here.
+
+---
+
+######Tuesday
+first: "July 21, 2015 00:00 -07"
+repeat: 1 week
+sticky: true
+title: "Weekly Gear Thread for {{date %B %d, %Y}}"
+text: Need advice on upgrades, or want to discuss new gear and bikes? Try posting here.
+
+---
+
+######Wednesday
+first: "July 22, 2015 00:00 -07"
+repeat: 1 week
+sticky: 1
+title: "Weekly New Rider Thread for {{date %B %d, %Y}}"
+text: Need help choosing a bike, finding a place to ride, or just want advice on technique, gear, or cycling etiquette? This thread’s for you.
+
+---
+
+######Thursday
+first: "July 23, 2015 00:00 -07"
+repeat: 1 week
+sticky: true
+title: "Weekly Advanced Skills Lab for {{date %B %d, %Y}}"
+text: Need help with advanced riding technique, or want tips on training and nutrition? Post your questions here.
