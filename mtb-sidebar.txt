@@ -1,47 +1,30 @@
-MTB Sidebar
-
 #### Reddit for mountain bikers. ####
 
 ***
-Please be sure to read the sidebar before posting. As much as we love helping each other out, we hate repeating ourselves.
+Need help choosing a bike, finding places to ride, or just want advice on technique, gear, or cycling etiquette? Please post in the *[Weekly New Rider Thread](https://www.reddit.com/r/MTB/search?q=title%3AWeekly+New+Rider&restrict_sr=on&sort=new&t=all)* or the *[Weekly Gear Thread](https://www.reddit.com/r/MTB/search?q=Weekly+Gear+Thread+&restrict_sr=on&sort=new&t=all)*, posted each week by /u/AutoModerator.
 
-***
-Need helping choosing a bike, finding places to ride, or just want advice on technique, gear, or cycling etiquette? Please post in the *Weekly New Rider Thread*, posted each Monday by /u/mtbot.
+Also, don't forget to post were you rode this weekend in the *[Weekend Ride Report Thread](https://www.reddit.com/r/MTB/search?q=title%3AWeekend+Ride+Report&restrict_sr=on&sort=new&t=all)*, posted each Monday.
 ***
 Please follow proper [reddiquette](http://www.reddit.com/help/reddiquette), and if you haven't already, take a moment to [read our wiki page](http://www.reddit.com/r/MTB/wiki/index) and learn a bit about the [site's history](http://www.youtube.com/watch?feature=player_embedded&v=5U-NCG1zZds).
 
-* Remember to vote based on quality, not opinion, and keep your submission titles factual and opinion-free.
+Remember to vote based on quality, not opinion, and keep your submission titles factual and opinion-free. Do *not* downvote opinions just because you disagree with them.
 
-* Do *not* downvote opinions just because you disagree with them, or mass-downvote someone else's posts. (It's obvious and tacky.)
+On the other hand, be generous with upvotes. They are free, after all.
 
-* Be generous with upvotes. They are free, after all.
+A couple quick rules for submissions:
 
-* Do not submit screenshots, pictures with superimposed text, or any other photo/video that doesn't help r/mtb grow as a community. This includes image macros, Rage Comics, meme pics, [comments with meme speak](http://www.urbandictionary.com/define.php?term=jelly), and static bike and trail photos.
+* No karma-baiting or cryptic post titles.
 
-If you want to submit a photo of your bike or where you ride, submit your link as a text post and include details and context. ([Like this](http://www.reddit.com/r/MTB/comments/31nqoh/new_bike_day_commencal_meta_am_v4/).) The general rule is photo and video submissions to /r/mtb should be of people *riding* mountain bikes.
+* No fundraising.
 
-As is the policy for all Reddit communities, blogspam is forbidden. (Ditto for craigslist ads.) And go easy with the links to PinkBike and Vital. If a video has a few thousand views, chances are we've all already seen it.
+* No image macros, Rage Comics, meme pics/meme speak, or static bike and trail photos.
+
+The general rule is photo and video submissions to /r/mtb should be of people *riding* mountain bikes. If you want to submit a trail or bike photo instead – your new bike leaning against a tree, or the view from top of the trail, for example – submit your link as a text post and include some details and context, [like this](http://www.reddit.com/r/MTB/comments/31nqoh/new_bike_day_commencal_meta_am_v4/).
 
 If you think your post was removed by mistake, use the [*message the moderators*](http://www.reddit.com/message/compose?to=%2Fr%2FMTB) link in the sidebar and include a link to your post. (Otherwise we'll ignore it. We are busy, after all.)
 
 ***
-[Click here to download our sticker template to print at home](http://i.imgur.com/wvxe4Su.jpg).
 
-***
-[Air shocks vs. coil shocks](http://www.reddit.com/r/MTB/comments/12t3j6/who_likes_their_air_shocks_beyond_the_weight/c6xxo8s)
-
-[Clipless vs. flat pedals]
-(http://www.reddit.com/r/MTB/comments/10hc9h/clipless_vs_platforms/c6dugvi)
-
-[Cold weather riding](http://www.reddit.com/r/bicycling/comments/156vd6/embss_fairly_definitive_guide_to_cold_weather/)
-
-[Groupset guide](http://www.reddit.com/r/MTB/comments/2ijspp/buyers_guide_to_mountain_bike_groupsets_shimano/)
-
-[Traffic statistics](http://www.reddit.com/r/MTB/about/traffic/)
-
-[Wet riding conditions](http://www.reddit.com/r/MTB/comments/2j5vqz/psa_on_dont_ride_wet_trails/)
-
-***
 [Cycling multi-reddit](http://www.reddit.com/r/bicycletouring+bikewrench+bicycling+bikeshop+bmx+cyclocross+MTB+professionalcycling+velo+BMXracing+29er) (all in one)
 
 [29er](http://www.reddit.com/r/29er/) (size matters)
@@ -49,6 +32,8 @@ If you think your post was removed by mistake, use the [*message the moderators*
 [Bicycle touring](http://www.reddit.com/r/bicycletouring/) (long-distance cycling)
 
 [Bicycling](http://www.reddit.com/r/bicycling/) (general cycling)
+
+[Bike buddies](http://www.reddit.com/r/BikeBuddies) (ride with friends)
 
 [Bike shop](http://www.reddit.com/r/bikeshop/) (bicycle classifieds)
 
@@ -84,10 +69,23 @@ If you think your post was removed by mistake, use the [*message the moderators*
 ***
 [Book: Mastering Mountain Bike Skills](http://www.amazon.com/Mastering-Mountain-Skills-Brian-Lopes/dp/0736056246)
 
-[Google Doc: Bike Buying Guide](https://docs.google.com/spreadsheet/ccc?key=0AuEd8rbBMVz6dFhxM19vcmllWi03dXFuRW02LTlUdFE#gid=0)
+[Doc: Bike Buying Guide](https://docs.google.com/spreadsheet/ccc?key=0AuEd8rbBMVz6dFhxM19vcmllWi03dXFuRW02LTlUdFE#gid=0)
 
-[Google Doc: Group Rides + Riding Partners](https://spreadsheets.google.com/ccc?key=0Amw8jvYIuWv-dFJJeXZQMFo1bDYtYjlOVFBVaW8tUUE&hl=en&authkey=CMzegrgF)
+[Link: Best Flat Shoes for MTB](http://www.outdoorgearlab.com/Mountain-Bike-Flat-Shoes-Reviews)
 
-[Link: Strava Heat Map of MTB Trails](http://labs.strava.com/heatmap/)
+[Stats: Community Statistics](http://www.reddit.com/r/MTB/about/traffic/)
+
+[Strava: Reddit MTB Riding Club on Strava](https://www.reddit.com/r/MTB/comments/3cc4eh/i_started_a_strava_club_for_rmtb_if_anybodys/)
+
+[Strava: Heat Map of MTB Trails](http://labs.strava.com/heatmap/)
+
+[Thread: Clipless vs. Flat Pedals]
+(http://www.reddit.com/r/MTB/comments/10hc9h/clipless_vs_platforms/c6dugvi)
+
+[Thread: Mountain Biking First Aid](https://www.reddit.com/r/MTB/comments/3spto2/mountain_biking_first_aid_what_to_do_when_you_or/)
+
+[Thread: Wet Riding Conditions](http://www.reddit.com/r/MTB/comments/2j5vqz/psa_on_dont_ride_wet_trails/)
 
 ***
+
+"*Every cyclist has something to teach and something to learn.*"
